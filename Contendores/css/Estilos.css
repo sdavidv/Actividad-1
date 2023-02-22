@@ -1,6 +1,4 @@
-.container {
-    background-image: ;
-}
+
 
 
 .fondo{
@@ -9,7 +7,7 @@
     
 html{
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 70.5%;
 }
 *, 
 
@@ -25,25 +23,12 @@ img {
     margin-bottom: 0;
     margin-left: auto;
    
-    background-image: url(//) ;
+    ;
 }
 
-.entradaa {
-    display: inline-block;
-    background-color: aquamarine;
-    
-}
 
-.entradab {
-    display: inline-block;
-    background-color: rgb(127, 232, 255);
     
-}
-.entradac {
-    display: inline-block;
-    background-color: rgb(127, 212, 255);
-    
-}
+
 h1 {
     font-size: 4rem;
 }
@@ -101,12 +86,6 @@ h1 {
 
 
 
- @media (min-width: 760px) 
-    .tres_columnas {
-        display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
-        column-gap: 2rem;
-    }
 
 
 
@@ -115,4 +94,13 @@ h1 {
     justify-content: space-between;
 
     flex-flow: row wrap;
+
+   
 }
+.clearfix {
+
+    background-color: black;
+    margin: auto;
+    margin color: ;
+}
+
