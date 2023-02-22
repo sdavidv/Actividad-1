@@ -1,9 +1,7 @@
 
 
 
-.fondo{
-    background-image: url(.);
-}
+
     
 html{
     box-sizing: border-box;
@@ -12,9 +10,7 @@ html{
 *, 
 
 
-img {
-    max-width: 100%;
-}
+
 .container{
 
     max-width: 120rem;
@@ -23,7 +19,7 @@ img {
     margin-bottom: 0;
     margin-left: auto;
    
-    ;
+    
 }
 
 
@@ -99,8 +95,30 @@ h1 {
 }
 .clearfix {
 
-    background-color: black;
-    margin: auto;
-    margin color: ;
+    font-size: small;
+    color: aliceblue;
+    background-color: rgb(73, 73, 74);
+    
 }
 
+.box {
+    position: absolute;
+    display: inline-block;
+   
+}
+
+.texto1 {
+    position: absolute;
+    top: 80px;
+left: 10%;
+font-family:'Courier New', Courier, monospace;
+font-size: 40px;
+}
+
+.texto1 {
+    position: absolute;
+    top: 80px;
+left: 10%;
+font-family:'Courier New', Courier, monospace;
+font-size: 60px;
+}
