@@ -16,8 +16,8 @@ html {
   img {
    max-width: 100%;
   }
-.entrada {
-
+.box {
+width: 100%;
     position: relative;
    display: inline-block;
 
@@ -30,7 +30,7 @@ html {
   }
 
   .boton{
-    background-color: rgb(200, 108, 108);
+    background-color: rgb(118, 237, 27);
     width: 150px;
     height: 45px;
     position: absolute;
@@ -42,7 +42,7 @@ html {
 
   }
   .boton1{
-    background-color: rgb(200, 108, 108);
+    background-color: rgb(116, 243, 5);
     width: 200px;
     height: 45px;
     position: absolute;
@@ -80,8 +80,8 @@ html {
 
 
 
-  @media (min-widht:1400px){
-    .contenedor{
+  @media (min-width:1400px){
+    .textos-oferta{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -98,7 +98,7 @@ html {
     display: inline;
   }
 }
-@media (min-widht: 768px){
+@media (min-width: 768px){
     .contenedor{
     display: flex;
     justify-content: space-between;
@@ -112,11 +112,24 @@ html {
   .main{
     flex: 0 0 calc(50%- 1 rem);
   }
-  .main img{
-    display: none;
-  }
+ 
 }
 footer{
   background-color: gray;
   color: aliceblue;
+}
+
+.box{
+  width: 100%;
+  align-items: center;
+}
+
+.seccion_imagen {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+  background-position: center;
+  color:var(gray) ;
 }
