@@ -30,7 +30,7 @@ width: 100%;
   }
 
   .boton{
-    background-color: rgb(118, 237, 27);
+    background-color: rgb(237, 27, 27);
     width: 150px;
     height: 45px;
     position: absolute;
@@ -42,7 +42,7 @@ width: 100%;
 
   }
   .boton1{
-    background-color: rgb(116, 243, 5);
+    background-color: rgb(243, 5, 5);
     width: 200px;
     height: 45px;
     position: absolute;
@@ -60,7 +60,7 @@ width: 100%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
   }
-  .lead2{
+  .texto1{
     position: absolute;
     top: 10px;
     left: 5%;
